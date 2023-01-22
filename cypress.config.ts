@@ -3,7 +3,7 @@ import { defineConfig } from 'cypress'
 export default defineConfig({
   viewportHeight: 1080,
   viewportWidth: 1920,
-  video: false,
+  video: true,
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
     configFile: 'reporter-config.json',
@@ -15,7 +15,7 @@ export default defineConfig({
   },
   retries: {
     runMode: 2,
-    openMode: 0
+    openMode: 2
   },
   
   e2e: {

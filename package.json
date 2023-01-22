@@ -16,7 +16,6 @@
     "cypress:run": "npm run prereport && npx cypress run || exit 0",
     "cypress:run_qa": "npx cypress run --env configFile=qa",
     "cypress:e2e": "start-test start http-get://localhost:4200 cypress:run && npm run junit:merge && npm run mochawesome:merge",
-
     "cy:open_dev": "npx cypress open --env username=cytest3@test.com,password=Welcome000",
     "cy:open_process": "npx cypress open --env username=$DB_USERNAME,password=$PASSWORD"
   },

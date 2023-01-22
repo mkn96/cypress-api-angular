@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.8400" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-01-22T14:49:41" tests="0" file="cypress/e2e/firstTest.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Tests with backend" timestamp="2023-01-22T14:49:41" tests="4" time="10.8400" failures="1">
+    <testcase name="Tests with backend verify correct request and response" time="3.8290" classname="verify correct request and response">
+      <failure message="expected 422 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 422 to equal 200
+    at Context.eval (webpack:///./cypress/e2e/firstTest.spec.js:22:47)]]></failure>
+    </testcase>
+    <testcase name="Tests with backend verify popular tags are displayed" time="1.3370" classname="verify popular tags are displayed">
+    </testcase>
+    <testcase name="Tests with backend verify global feed likes count" time="1.8190" classname="verify global feed likes count">
+    </testcase>
+    <testcase name="Tests with backend delete a new article in a global feed" time="3.8550" classname="delete a new article in a global feed">
+    </testcase>
+  </testsuite>
+</testsuites>

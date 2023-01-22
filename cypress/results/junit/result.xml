@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2023-01-21T22:08:45" tests="0" file="cypress/e2e/secondTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test log out" timestamp="2023-01-21T22:08:45" tests="1" time="2.2460" failures="0">
+  
+  <testcase name="Test log out verify use can log out successfully" time="2.2460" classname="verify use can log out successfully"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-01-21T22:08:23" tests="0" file="cypress/e2e/firstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Tests with backend" timestamp="2023-01-21T22:08:23" tests="4" time="9.5710" failures="1">
+  
+  <testcase name="Tests with backend verify correct request and response" time="3.2130" classname="verify correct request and response">
+    
+    <failure message="expected 422 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 422 to equal 200
+    at Context.eval (webpack:///./cypress/e2e/firstTest.spec.js:22:47)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Tests with backend verify popular tags are displayed" time="1.1200" classname="verify popular tags are displayed"></testcase>
+  
+  <testcase name="Tests with backend verify global feed likes count" time="1.5280" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Tests with backend delete a new article in a global feed" time="3.7100" classname="delete a new article in a global feed"></testcase>
+  
+</testsuite>
+
+</testsuites>
